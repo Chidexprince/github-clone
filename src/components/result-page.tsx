@@ -14,8 +14,8 @@ function ResultPage() {
                 </div>
                 <div className="col-md-6 mt-2">
                     <h4>result</h4>
-                    <div class="card remove-border">
-                        <div class="card-body">
+                    <div className="card remove-border">
+                        <div className="card-body">
                             This is some text within a card body.
                         </div>
                     </div>
