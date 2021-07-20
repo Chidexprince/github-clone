@@ -82,3 +82,26 @@
 .remove-border{
   border: none !important;
 }
+
+.font-color {
+  color: #b9b9c1;
+}
+
+.ft-sm {
+  font-size: 12px;
+}
+
+.ft-md {
+  font-size: 14px;
+}
+
+.size-width {
+  width: 550px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;  
+}
+
+.cursor {
+  cursor: pointer;
+}
