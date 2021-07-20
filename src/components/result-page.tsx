@@ -72,14 +72,11 @@ class ResultPage extends Component<Props>{
                 }
             })
             .then(result => {
-                console.log(result.data)
                 this.setState({
                     repoResults: result.data.search.edges,
                     totalRepo: result.data.search.repositoryCount,
                     
                 })
-
-                console.log(this.state.repoResults)
             });
     }
 

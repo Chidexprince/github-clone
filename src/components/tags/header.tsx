@@ -9,12 +9,10 @@ const Header = () => {
 
     const onChange = (e) => {
         setSearch(e.currentTarget.value);
-        console.log(searchTerm)
     };
 
     const onSearch = (e) => {
         if (e.key === 'Enter') {
-            console.log(searchTerm)
             history.push("/results/" + searchTerm)
         }
     }
